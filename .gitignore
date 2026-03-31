@@ -1,3 +1,4 @@
+airline_env/
 venv/
 __pycache__/
 *.pyc
@@ -7,3 +8,4 @@ __pycache__/
 .env
 .ipynb_checkpoints
 .DS_Store
+models/bert_model/
