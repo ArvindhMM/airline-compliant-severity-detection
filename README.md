@@ -107,27 +107,25 @@ Compared multiple models using:
 
 
 ## Project Structure
+```text
 project/
-│
 ├── models/
-│ ├── risk_model.pkl
-│ ├── tfidf_risk.pkl
-│ └── bert_model/ # Not included (large size)
-│
+│   ├── risk_model.pkl
+│   ├── tfidf_risk.pkl
+│   └── bert_model/   # Not included (large size)
 ├── data/
-│ └── clean_airline_reviews.csv
-│
+│   └── clean_airline_reviews.csv
 ├── app/
-│ ├── Home.py
-│ └── pages/
-│ ├── EDA_Dashboard.py
-│ ├── Model_Comparison.py
-│ ├── Risk_Prediction.py
-│ └── Severity_Prediction.py
-│
+│   ├── Home.py
+│   └── pages/
+│       ├── EDA_Dashboard.py
+│       ├── Model_Comparison.py
+│       ├── Risk_Prediction.py
+│       └── Severity_Prediction.py
 ├── notebooks/
 ├── requirements.txt
 └── README.md
+```
 
 ## How to Run
 ```bash
