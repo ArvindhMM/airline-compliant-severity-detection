@@ -1,7 +1,6 @@
-# ✈️ Airline Complaint Analysis & Risk Classification System
+# Airline Complaint Analysis & Risk Classification System
 
-
-## 🎯 Objective
+## Objective
 This project analyzes airline customer complaints using Machine Learning and Deep Learning techniques to:
 
 - Classify complaint **severity** (Low, Medium, High, Critical)
@@ -9,7 +8,7 @@ This project analyzes airline customer complaints using Machine Learning and Dee
 - Provide **insights** through an EDA dashboard
 - Enable **real-time and bulk predictions** via a Streamlit application
 
-## 📊 Dataset
+## Dataset
 **Airline customer review dataset** containing:
 - Airline Name
 - Overall Rating
@@ -29,7 +28,7 @@ This project analyzes airline customer complaints using Machine Learning and Dee
 | 5–6    | Medium    |
 | 7+     | Low       |
 
-## 🧠 Models Used
+## Models Used
 
 ### 🔹 Traditional ML Models (TF-IDF)
 - **Logistic Regression**
@@ -43,14 +42,14 @@ This project analyzes airline customer complaints using Machine Learning and Dee
 
 **Used for**: Severity Classification
 
-## 🖥️ Streamlit Application Features
+## Streamlit Application Features
 
-### 🏠 1. Home Page
+### 1. Home Page
 - Project overview
 - Model explanation
 - Features and business use cases
 
-### 📊 2. EDA Dashboard (Interactive)
+### 2. EDA Dashboard (Interactive)
 - Severity Distribution (**Pie Chart**)
 - Airline-wise Complaints (**Bar Chart**)
 - Complaint Length Distribution (**Histogram**)
@@ -63,7 +62,7 @@ This project analyzes airline customer complaints using Machine Learning and Dee
 
 **Built using Plotly** for interactivity
 
-### 📈 3. Model Comparison
+### 3. Model Comparison
 Compared multiple models using:
 - Accuracy
 - Precision
@@ -72,16 +71,16 @@ Compared multiple models using:
 
 **Identified best-performing model**
 
-### ⚠️ 4. Risk Prediction (ML Model)
+### 4. Risk Prediction (ML Model)
 - **Single Prediction**: Input complaint text → High Risk / Low Risk + Confidence score
 - **Explainability**: Shows important words influencing prediction
 - **Bulk Prediction**: CSV Upload → Select text column → Predict all rows → Download results
 
-### 🤖 5. Severity Prediction (BERT)
+### 5. Severity Prediction (BERT)
 - Input: Complaint text
 - Output: Severity class + Confidence score + Class probabilities
 
-## 🎨 UI/UX Features
+## UI/UX Features
 - Multi-page Streamlit app
 - Dashboard-style layout
 - Interactive charts (Plotly)
@@ -89,14 +88,14 @@ Compared multiple models using:
 - Clean navigation
 - Downloadable outputs
 
-## 💡 Key Features
-- ✅ Real-time prediction
-- ✅ Bulk CSV processing
-- ✅ Explainable ML outputs
-- ✅ Interactive EDA
-- ✅ Hybrid ML + Deep Learning system
+## Key Features
+- Real-time prediction
+- Bulk CSV processing
+- Explainable ML outputs
+- Interactive EDA
+- Hybrid ML + Deep Learning system
 
-## 🧠 Business Use Cases
+## Business Use Cases
 - Prioritize **critical customer complaints**
 - Improve **airline customer support**
 - Detect **negative sentiment early**
@@ -107,7 +106,7 @@ Compared multiple models using:
 - Python | Pandas | NumPy | Scikit-learn | HuggingFace Transformers | Streamlit | Plotly
 
 
-## 📁 Project Structure
+## Project Structure
 project/
 │
 ├── models/
@@ -130,22 +129,22 @@ project/
 ├── requirements.txt
 └── README.md
 
-
-## 🚀 How to Run
+## How to Run
 ```bash
 pip install -r requirements.txt
 streamlit run app/Home.py
 ```
 
-## ⚠️ Note
+## Note
 **DistilBERT model** is not included due to size limitations.
 
 **To recreate it, run:**
 ```bash
 notebooks/transformer_models.ipynb
 ```
-## 🔗 GitHub Repository
 
+##  GitHub Repository
 You can view the complete source code here:
 
-👉 [Airline Complaint Analysis & Risk Classification System](YOUR_GITHUB_REPO_LINK)
+[View on GitHub](https://github.com/ArvindhMM/airline-compliant-severity-detection)
+
